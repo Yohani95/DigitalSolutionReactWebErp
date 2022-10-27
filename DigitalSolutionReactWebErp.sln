@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSolutionReactWebErp", "DigitalSolutionReactWebErp\DigitalSolutionReactWebErp.csproj", "{3BB35E53-4C96-4B8B-AAF2-886DCDC7C6E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalSolutionReactWebErp", "DigitalSolutionReactWebErp\DigitalSolutionReactWebErp.csproj", "{3BB35E53-4C96-4B8B-AAF2-886DCDC7C6E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Client", "01 Client", "{8F30FCB6-E637-447D-A814-67A00B2C003D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{1F3DAD06-602D-4EA3-9067-D12B80761BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpApi", "ErpApi\ErpApi.csproj", "{04C00D3A-7563-4311-B6F3-BCB058EB4453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{3BB35E53-4C96-4B8B-AAF2-886DCDC7C6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB35E53-4C96-4B8B-AAF2-886DCDC7C6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB35E53-4C96-4B8B-AAF2-886DCDC7C6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C00D3A-7563-4311-B6F3-BCB058EB4453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C00D3A-7563-4311-B6F3-BCB058EB4453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C00D3A-7563-4311-B6F3-BCB058EB4453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C00D3A-7563-4311-B6F3-BCB058EB4453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BB35E53-4C96-4B8B-AAF2-886DCDC7C6E9} = {8F30FCB6-E637-447D-A814-67A00B2C003D}
+		{04C00D3A-7563-4311-B6F3-BCB058EB4453} = {1F3DAD06-602D-4EA3-9067-D12B80761BE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F23B36A-DB88-4FA1-AA1C-8F79187FC3D7}
