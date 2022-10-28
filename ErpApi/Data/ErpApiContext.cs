@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ErpApi.Models.User;
 using Microsoft.EntityFrameworkCore;
 using Models.User;
+
 namespace ErpApi.Data
 {
     public class ErpApiContext : DbContext
@@ -12,6 +10,7 @@ namespace ErpApi.Data
             : base(options)
         {
         }
-        public DbSet<Models.User.UserModels> UserModels { get; set; }
+        public DbSet<UserModels> usuarios { get; set; }
+        public DbSet<RolesModels> roles { get; set; }
     }
 }
