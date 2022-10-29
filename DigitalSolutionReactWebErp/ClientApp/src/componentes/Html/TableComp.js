@@ -1,5 +1,5 @@
 ﻿import { Table } from "reactstrap";
-const TableComp = ({ data }) => {
+const TableComp = ({ data}) => {
     return (
     <Table striped responsive className="text-center">
         <thead>
@@ -31,7 +31,6 @@ const TableComp = ({ data }) => {
                 )))
             }
         </tbody>
-
     </Table >
         )
 }
